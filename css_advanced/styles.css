@@ -1,0 +1,42 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HERO section */
+.hero {
+    width: 100%;
+  min-height: 75vh;
+  padding-top: 30px;
+  background-image: url('CSS_Advanced/Object.png'); /* replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  justify-content: center;
+/*padding-left: 100px; padding-right: 50px; */
+ 
+}
+/* header section */
+
+nav { display: flex; justify-content: space-around; align-content: center; }
+.logo {display: flex; color: white; align-items: center;}
+ul {display: flex; align-items: center;}
+li { list-style: none; justify-content: space-around; padding-left: 50px;}
+
+
+
+
+
+
+/* main section */
+h2 {color: white; text-align: center; text-decoration: none;
+}
+.sec1 {display: flex; flex-direction: column; align-items: center;}
+.span1 { padding-left: ;}
+.sec2 {width: 80%;;display: flex; flex-direction: column;align-items: center; justify-content: center;align-content: center;}
+.pros {display: flex; align-content: center; padding-left: 80px; color: white;}
+.sec3 {display: flex; align-items: center; justify-content: space-around ;background-color: #c271ff; color: white;}
+.sec4 {display: flex; align-items: center; background-color: white; padding-top: 30px; justify-content: space-between;}
+.sec5 { display: flex;; background-color: black;}
