@@ -176,6 +176,35 @@ input{
   
 }
 
+#footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.footerlogo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagelogo{
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right {
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+  font-weight: 100;
+  
+}
+
+.socialicon {
+  color: white;
+}
+
 
 
 
