@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -6,9 +7,18 @@
 
 }
 
+ body {
+  /* max-width: 100%; */
+  width: 100%;
+  margin: auto;
+} 
+
+
+
 #hero { 
   
   padding: 0px 100px;
+  height: 90vh;
     display: flex;
     flex-direction: column;
     background-image: url(images/headphones_hero_1.jpg);
@@ -82,98 +92,151 @@ ul li a {
    padding-bottom: 100px;
 }
 
-/* what to do section */
+/* what we do section */
 
 #whatwedo {
-     display: block;
-    
-    /* gap: 40px; */
+     background-color: aqua;
+     width: 100%;
     text-align: center;
-    line-height: 1.5em;
-    justify-content: space-between;
-    padding: 50px 40px;
-    overflow:auto;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+.whatwedotext {
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 40px;
+ 
+}
+
+.whatwedotext h2 {
+  margin-bottom: 20px;
 }
 
 .icon_card {
-   display: inline-flex;
-    /* gap: 20px; */
+   display: flex;
     width: 80%;
     align-items: center;
-     align-content:space-around;
-    padding: 50px 50px;
+    gap: 10px;
+  margin: auto;
 
 }
 
 .card { 
-  /* display: inline; */
-  /* padding: 20px; */
-  /* width: 80px ;    */
+  width: 25% ; 
+  height: 250px; 
+   align-items: center;
+   justify-content: space-between;
+
+   border: 1px dotted;
 }
 .card img {
-    padding: 30px;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
 }
 .card h4 {
     font-size: medium;
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
 }
-/* what wee do*/
- #whatwedo p {
- margin: auto;
-  width: 60%;
-  padding: 10px;
 
-
-}
+/* our result section */
 #ourresult {
-   background-image: url(images/headphones_hero_2.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
+background-image: url(images/headphones_hero_2.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-align: center;
-  max-width: 100%;
-  padding: 40px;
   color: white;
-} 
-.text {
-  width: 60%;
-  padding: 30px 20px;
-  text-align: center;
+  width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
 
+} 
+.ourresulttext {
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: sans-serif;
+ 
+}
+
+.ourresulttext h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 .pentagone {
   display: flex;
-  justify-content: space-evenly;
+  
+    width: 80%;
+    align-items: center;
+    gap: 10px;
   margin: auto;
-  text-align: center;
-  padding: 55px;
  
 }
+
+
 .pentagonecard {
-  padding: 30px 20px;
+  position: relative;
+   width: 25% ;
+   border: 1px dotted;
+   padding: 30px 5px;
 }
+
+.pentagonecard p {
+
+position: absolute;
+top: 45%;
+width: 100%;
+font-size: 13px;
+font-weight: lighter;
+
+}
+
+.pentagonecard img{
+width: 100%;
+} 
+
 
   /* contact us  */
 
 #contact-us{
   width: 100%;
   margin: auto;
-  padding: 50px;
+  padding: 150px 0px;
   justify-items: center;
   line-height: 1.5em;
+  color: black;
   background-color: white;
 }
  
 input{
   min-width: 350px;
   height: 40px;
+  border: none;
+ box-shadow: 0px 0px 2px 0px;
 }
 
-#submit {
-  min-width: 100px;
-  border-radius: 10px;
+.submit {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #FF6565;
+  border: none;
+  color: white;
+
   
+}
+#submit :hover {
+  background-color: gray;
+  color: white;
 }
 
 #footer {
@@ -181,6 +244,7 @@ input{
   color: white;
   display: flex;
   flex-direction: column;
+  padding: 30px  100px;
 }
 .footerlogo {
   display: flex;
