@@ -124,13 +124,15 @@ ul li a {
     align-items: center;
     gap: 10px;
   margin: auto;
+  justify-content: space-around;
 
 }
 
 .card { 
   width: 25% ; 
   height: 250px; 
-   align-items: center;
+   
+   align-content: center;
    justify-content: space-between;
 
    border: 1px dotted;
@@ -182,6 +184,7 @@ background-image: url(images/headphones_hero_2.jpg);
     align-items: center;
     gap: 10px;
   margin: auto;
+  justify-content: space-around;
  
 }
 
@@ -371,18 +374,20 @@ margin: auto;
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  gap: 30px;
-  padding: 0 30px;
+  padding: 0 10px;
+  align-items: center;
+  gap: 10px;
   
-  justify-content: space-between;
+  justify-content: space-around;
  }
  .card {
-  width: 48%;
-  height: 200px;
+  width: 40%;
+  height: 250px;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   border-radius: 10px;
   margin: 30px 0;
+  padding: 10px;
  }
 
  /* our result section */
