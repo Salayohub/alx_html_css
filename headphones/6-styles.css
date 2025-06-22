@@ -1,0 +1,491 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+
+}
+
+ body {
+  /* max-width: 100%; */
+  width: 100%;
+  margin: auto;
+} 
+
+
+
+#hero { 
+  
+  padding: 0px px;
+  height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/headphones_hero_1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.nav {
+  width: 80%;
+  margin: auto;
+    display: flex;
+    padding: 30px 20px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+/* btn chexking */
+.btn_logo {
+  display: flex;
+  width: 50%;
+  background-color: red;
+  border: 2px black;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle_btn {
+  display: flex;
+  height: 13px;
+  background-color: white;
+  border-width: 1px;
+}
+
+.toggle_line-top .toggle_line-middle .toggle_line-bottom{
+  
+  height: 4px;
+  width: 100px;
+  background-color: white;
+  align-items: start;
+  justify-content: center;
+}
+
+
+
+
+/* btn chek end */
+
+
+ul {
+    display: flex;
+    gap: 20px;
+   
+    
+}
+
+li {
+    list-style: none;
+}
+ul li a {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: bold;
+    text-decoration: none;
+  color: white;
+}
+
+.h1text { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 0px;
+    color: white;
+    gap: 1.5px;
+    margin-top: 250px;
+}
+.h1text h1 {
+  font-size: 24px;
+}
+
+.h1text p {
+  font-size: 12px;
+  font-weight: 400;
+}
+.herobutton{
+  border-radius: 20px;
+  padding:15px 20px;
+  background-color: red;
+  border: none;
+  align-items: center;
+  margin-top: 25px;
+
+  
+}
+.herotext {
+    color: white;
+   text-align: center;
+   padding: 40px;
+   font-size: 12px;
+   font-family: sans-serif;
+   font-weight: 200;
+   padding-bottom: 100px;
+}
+
+/* what we do section */
+
+#whatwedo {
+     background-color: aqua;
+     width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+}
+
+.whatwedotext {
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 40px;
+ 
+}
+
+.whatwedotext h2 {
+  margin-bottom: 20px;
+}
+
+.icon_card {
+   display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  margin: auto;
+
+}
+
+.card { 
+  width: 25% ; 
+  height: 250px; 
+   align-items: center;
+   justify-content: space-between;
+
+   border: 1px dotted;
+}
+.card img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 30px;
+}
+.card h4 {
+    font-size: medium;
+    /* padding-bottom: 10px; */
+}
+
+/* our result section */
+#ourresult {
+background-image: url(images/headphones_hero_2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 20px;
+
+} 
+.ourresulttext {
+  display: inline-block;
+  width: 60%;
+  margin-bottom: 40px;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: sans-serif;
+ 
+}
+
+.ourresulttext h2 {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.pentagone {
+  display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  margin: auto;
+ 
+}
+
+
+.pentagonecard {
+  flex-basis: 190px;
+  position: relative;
+   height: 190px;
+   
+   background-color: #FF6565;
+   clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+   
+}
+
+.pentagonecard p {
+
+position: absolute;
+top: 45%;
+width: 100%;
+font-size: 13px;
+font-weight: lighter;
+
+}
+
+
+
+  /* contact us  */
+
+#contact-us{
+  width: 100%;
+  margin: auto;
+  padding: 150px 0px;
+  justify-items: center;
+  line-height: 1.5em;
+  color: black;
+  background-color: white;
+}
+ 
+input{
+  min-width: 350px;
+  height: 40px;
+  border: none;
+ box-shadow: 0px 0px 2px 0px;
+}
+
+.submit {
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 400;
+  background-color: #FF6565;
+  border: none;
+  color: white;
+
+  
+}
+#submit :hover {
+  background-color: gray;
+  color: white;
+}
+
+#footer {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 30px  100px;
+}
+.footerlogo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagelogo{
+  display: flex;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.right {
+  text-align: center;
+  margin: auto;
+  padding-top: 40px;
+  font-weight: 100;
+  
+}
+
+.socialicon {
+  color: white;
+}
+
+
+
+
+
+ /* 📱 Mobile Styles (max-width: 480px) */
+
+ @media only screen and (max-width: 480px) {
+
+
+  /* nav line  */
+
+  
+
+  /* hero text  */
+.h1text { 
+     margin-top: 0px;
+    }
+
+.h1text h1 {
+  font-size: 18px;
+}
+/* what we do */
+ #whatwedo {
+  padding: 50px 10px;
+  
+ } 
+ .whatwedotext {
+  width: 100%;
+ }
+ .icon_card {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
+ }
+ .card {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+ }
+
+ /* our result section */
+
+ #ourresult {
+  padding: 100px 0;
+ }
+ .ourresulttext {
+  width: 100%;
+  padding: 0 10px;
+ }
+ .ourresulttext h2 {
+  font-size: 1.2em;
+ }
+
+ .ourresulttext p {
+  font-size: 12px;
+ }
+ .pentagone {
+  flex-direction: column;
+  width: 80%;
+  padding: 0 30px;
+
+ }
+ .pentagonecard {
+  width: 100%;
+ }
+
+ #footer {
+  width: 100%;
+  gap: 30px;
+ }
+ .footerlogo {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;}
+
+}
+ 
+ /* ================================
+   📱📲 Tablet Styles (481px - 1000px)
+================================ */
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+
+ 
+/* what we do */
+ #whatwedo {
+  width: 100%;
+  padding: 50px 0px;
+margin: auto;
+ } 
+ .whatwedotext {
+  width: 80%;
+  padding: 10px;
+ }
+ .icon_card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  padding: 0 30px;
+  align-items: center;
+  justify-content: space-around;
+ }
+ .card {
+  width: 50%;
+  max-width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 30px 0;
+  align-content: center;
+  
+ }
+
+ /* our result section */
+
+ #ourresult {
+  padding: 100px 0;
+ }
+ .ourresulttext {
+  width: 80%;
+  padding: 0 0px;
+ }
+ .ourresulttext h2 {
+  font-size: 1.8em;
+ }
+
+ .ourresulttext p {
+  font-size: 14px;
+  margin-bottom: 30px;
+ }
+  .pentagone {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .pentagonecard {
+    flex-basis: 45%; /* allows 2 per row with gap */
+    position: relative;
+    height: 330px;
+    /auto\\\\[]
+    ;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin-bottom: 20px;
+  }
+
+  .pentagonecard p {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    color: white;
+  }
+
+
+
+
+ #footer {
+  width: 100%;
+  gap: 30px;
+ }
+ .footerlogo {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;}
+ }
