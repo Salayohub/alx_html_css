@@ -40,36 +40,7 @@
 }
 
 
-/* btn chexking */
-.btn_logo {
-  display: flex;
-  width: 50%;
-  background-color: red;
-  border: 2px black;
-  align-items: center;
-  justify-content: space-between;
-}
 
-.toggle_btn {
-  display: flex;
-  height: 13px;
-  background-color: white;
-  border-width: 1px;
-}
-
-.toggle_line-top .toggle_line-middle .toggle_line-bottom{
-  
-  height: 4px;
-  width: 100px;
-  background-color: white;
-  align-items: start;
-  justify-content: center;
-}
-
-
-
-
-/* btn chek end */
 
 
 ul {
@@ -317,14 +288,21 @@ input{
 
   /* nav line  */
 
-  
+#hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
 
   /* hero text  */
 .h1text { 
-     margin-top: 0px;
+     margin-top: 150px;
     }
 
 .h1text h1 {
+  /* margin-top: 150px; */
   font-size: 18px;
 }
 /* what we do */
