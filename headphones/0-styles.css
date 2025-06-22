@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 #hero { 
-  
+  height: 100vh;
   padding: 0px 100px;
     display: flex;
     flex-direction: column;
@@ -34,12 +34,17 @@ li {
     list-style: none;
 }
 ul li a {
-  font-size: 14px;
+  font-size: 18px;
   font-family: sans-serif;
   font-weight: bold;
     text-decoration: none;
   color: white;
 }
+
+ul li a:hover {
+  color: rgb(255, 69, 69);
+}
+
 
 .h1text { 
     display: flex;
@@ -66,7 +71,11 @@ ul li a {
   border: none;
   align-items: center;
   margin-top: 25px;
+ 
+}
 
+.herobutton :hover {
+  background-color: black;
   
 }
 .herotext {
