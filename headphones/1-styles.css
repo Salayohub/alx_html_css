@@ -5,10 +5,13 @@
   font-family: sans-serif;
 
 }
+body {
+  width: 100%;
+}
 
 #hero { 
-  
-  padding: 0px 100px;
+  width: 100%;
+  padding: 0px px;
     display: flex;
     flex-direction: column;
     background-image: url(images/headphones_hero_1.jpg);
@@ -85,87 +88,122 @@ ul li a {
 /* what to do section */
 
 #whatwedo {
-     display: block;
+     display: flex;
+     flex-direction: column;
+     width: 100%;
     
-    /* gap: 40px; */
+    gap: 40px;
     text-align: center;
     line-height: 1.5em;
-    justify-content: space-between;
-    padding: 50px 40px;
-    overflow:auto;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px 40px; */
+    
+}
+
+.whatwedotext p {
+  font-size: smaller;
+ margin-top: 15px;
 }
 
 .icon_card {
-   display: inline-flex;
+   display: flex;
     /* gap: 20px; */
-    width: 80%;
+    /* width: 80%; */
     align-items: center;
      align-content:space-around;
-    padding: 50px 50px;
-
+    
 }
 
-.card { 
-  /* display: inline; */
-  /* padding: 20px; */
-  /* width: 80px ;    */
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 3px black dotted;
+  width: 20px;
+  height: 250px;
+  align-items: center;
+  justify-content: space-between;
+  
 }
+
 .card img {
-    padding: 30px;
+    /* width: 300px;
+    height: 150px; */
+    margin-bottom: 30px;
+  }
+
+
+
+ /* 📱 Mobile Styles (max-width: 480px) */
+
+ @media only screen and (max-width: 480px) {
+
+
+  /* nav line  */
+
+  
+
+  /* hero text  */
+.h1text { 
+     margin-top: 0px;
+    }
+
+.h1text h1 {
+  font-size: 18px;
 }
-.card h4 {
-    font-size: medium;
-    padding-bottom: 10px;
-}
-#whatwedo p {
- margin: auto;
-  width: 60%;
+/* what we do */
+ #whatwedo {
+  padding: 50px 10px;
+  
+ } 
+ .whatwedotext {
+  width: 100%;
+ }
+ .icon_card {
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 0 10px;
+ }
+ .card {
+  width: 100%;
+  max-width: 350px;
+  height: 200px;
+  padding: 20px;
+  border-radius: 10px;
+ }
+ }
+ 
+    /* 📱📲 Tablet Styles (481px - 1000px) */
+
+@media only screen and (min-width: 481px) and (max-width: 1000px) {
+
+ 
+/* what we do */
+ #whatwedo {
+  width: 100%;
+  padding: 50px 0px;
+margin: auto;
+ } 
+ .whatwedotext {
+  width: 80%;
   padding: 10px;
+ }
+ .icon_card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  gap: 30px;
+  padding: 0 30px;
+  align-items: center;
+  justify-content: space-around;
+ }
+ .card {
+  width: 50%;
+  max-width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 30px 0;
+  align-content: center; 
+ }
 }
-
-
-
-
-
-
-
-================================
-   📱 Mobile Styles (max-width: 767px)
-================================ */
- @media (max-width: 767px) {
-  nav ul {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-  }
-
-  header h1 {
-    font-size: 1.5rem;
-  }
-
-  .hero {
-    padding: 20px;
-  }
-}
-
-/* ================================
-   📱📲 Tablet Styles (768px - 1024px)
-================================ */
-/* @media (min-width: 768px) and (max-width: 1024px) {
-  body {
-    padding: 30px;
-  }
-
-  nav ul {
-    gap: 15px;
-  }
-
-  .hero {
-    padding: 30px;
-    font-size: 1.1rem;
-  }
-
-  header h1 {
-    font-size: 1.8rem;
-  }
-} */

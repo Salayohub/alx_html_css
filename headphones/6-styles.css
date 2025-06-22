@@ -390,9 +390,9 @@ input{
 
 }
  
- /* ================================
-   📱📲 Tablet Styles (481px - 1000px)
-================================ */
+
+   /* 📱📲 Tablet Styles (481px - 1000px) */
+
 @media only screen and (min-width: 481px) and (max-width: 1000px) {
 
  
@@ -454,8 +454,6 @@ margin: auto;
     flex-basis: 45%; /* allows 2 per row with gap */
     position: relative;
     height: 330px;
-    /auto\\\\[]
-    ;
     background-color: #FF6565;
     clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
     margin-bottom: 20px;
